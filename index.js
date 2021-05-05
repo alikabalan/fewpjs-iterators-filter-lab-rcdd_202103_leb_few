@@ -15,6 +15,6 @@ const findMatching = (array, string){
   return array.fikter(x => x.toLowerCase() === string.toLowerCase())
 }
 
-const fuzzyMatch = (array, string){
-  return array.filter(x => x.ChatAt[0] === string.ChatAt[0])
-}
+// const fuzzyMatch = (array, string){
+//   return array.filter(x => x.ChatAt[0] === string.ChatAt[0])
+// }
