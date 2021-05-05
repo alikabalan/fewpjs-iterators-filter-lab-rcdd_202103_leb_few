@@ -9,5 +9,3 @@ const findMatching = (array, string) => {
  const matchName = (array, string) => {
   return array.filter(x => x.name === string)
 }
-
-
